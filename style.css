@@ -50,6 +50,10 @@ body {
   cursor: pointer;
 }
 
+.nav_list li a {
+  color: #333;
+  text-decoration: none;
+}
 /* section-one */
 .section_one {
   display: flex;
@@ -510,6 +514,7 @@ body {
   border: 2px solid transparent;
   font-size: 0.875rem;
   font-weight: 600;
+  font-family: "poppins", sans-serif;
   color: #fff;
   transition: all 300ms ease-in-out 0s;
   text-align: center;
@@ -530,7 +535,6 @@ body {
 }
 
 @media (max-width: 768px) {
-
   /* header */
   .nav_list li {
     padding-right: 2rem;
@@ -664,7 +668,6 @@ body {
 }
 
 @media (max-width: 576px) {
-
   /* Hamburger_menu_setup */
   .header {
     width: 100%;
@@ -724,9 +727,26 @@ body {
     margin-right: auto;
     background-color: white;
     text-align: center;
-    padding: 1.5rem 0;
+    padding: 1.5rem 1rem;
     border-radius: 5px;
     gap: 0;
+  }
+
+  .nav_list li {
+    padding: 1rem;
+    border-radius: 5px;
+  }
+
+
+    
+    .nav_list li:hover{
+    transition: 0.5s ease-in-out;
+    background-color: #333;
+    color: #fff;
+  }
+
+  .nav_list li a:hover {
+    color: #fff;
   }
 
   /* section_one */
@@ -736,10 +756,13 @@ body {
 }
 
 @media (max-width: 375px) {
-
   /* Section_one */
   .section_one {
     flex-direction: column;
+  }
+
+  .sec_one_details h1 {
+    margin-bottom: 45px;
   }
 
   .sec_one_img {
@@ -747,12 +770,21 @@ body {
   }
 
   /* Section_two */
+  .section_two {
+    padding: 80px 2rem 0 2rem;
+  }
+
   .service_details {
     flex-direction: column;
   }
 
   .detail_part {
     width: 100%;
+  }
+
+  .detail_part h2 {
+    font-size: 25px;
+    padding-bottom: 2rem;
   }
 
   .facial_img {
@@ -769,6 +801,17 @@ body {
     width: 100%;
   }
 
+  .discount_sec h1 {
+    font-size: 46px;
+  }
+
+  .discount_sec h2 {
+    font-size: 38px;
+  }
+  .discount_sec p {
+    font-size: 18px;
+  }
+
   /* Section_four */
   .beauty_product_img {
     flex-direction: column;
@@ -783,18 +826,44 @@ body {
     width: 100%;
   }
 
+  .coffee,
+  .leg,
+  .belly img {
+    height: 300px;
+  }
+
   /* Section_five */
   .section_five {
     flex-direction: column;
+    padding: 100px 2rem 100px 2rem;
   }
 
   .client_sec {
     width: 100%;
   }
+  .client_sec h2 {
+    font-size: 36px;
+  }
+
+  .client_sec p {
+    font-size: 14px;
+  }
 
   /* Section_six */
   .container {
-    padding: 100px 20px;
+    padding: 50px 20px;
   }
 
+  .card_details {
+    font-size: 14px;
+  }
+
+  /* Footer */
+  .footer_container {
+    padding: 50px 2rem;
+  }
+  .second_part h1 {
+    font-size: 28px;
+    line-height: 50px;
+  }
 }
