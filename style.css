@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap");
+
 /* reset */
 * {
   box-sizing: border-box;
@@ -140,6 +141,7 @@ body {
   padding: 12px 50px;
   cursor: pointer;
 }
+
 .service_btn:hover {
   background-color: #ffebf4;
   color: #333;
@@ -280,6 +282,7 @@ body {
   padding: 12px 50px;
   cursor: pointer;
 }
+
 .beauty_btn:hover {
   background-color: #ffebf4;
   color: #333;
@@ -527,6 +530,7 @@ body {
 }
 
 @media (max-width: 768px) {
+
   /* header */
   .nav_list li {
     padding-right: 2rem;
@@ -653,12 +657,14 @@ body {
     text-align: center;
     gap: 2rem;
   }
+
   .first_part h2 {
     margin-bottom: 1rem;
   }
 }
 
 @media (max-width: 576px) {
+
   /* Hamburger_menu_setup */
   .header {
     width: 100%;
@@ -667,6 +673,7 @@ body {
     top: 0;
     background-color: #fff;
   }
+
   .header #nav_btn {
     display: block;
   }
@@ -729,6 +736,8 @@ body {
 }
 
 @media (max-width: 375px) {
+
+  /* Section_one */
   .section_one {
     flex-direction: column;
   }
@@ -736,4 +745,56 @@ body {
   .sec_one_img {
     width: 345px;
   }
+
+  /* Section_two */
+  .service_details {
+    flex-direction: column;
+  }
+
+  .detail_part {
+    width: 100%;
+  }
+
+  .facial_img {
+    width: 275px;
+    height: 230px;
+  }
+
+  /* Section_three */
+  .section_three {
+    flex-direction: column;
+  }
+
+  .discount_sec {
+    width: 100%;
+  }
+
+  /* Section_four */
+  .beauty_product_img {
+    flex-direction: column;
+  }
+
+  .beauty_img {
+    width: 275px;
+    height: 230px;
+  }
+
+  .beauty_detail_part {
+    width: 100%;
+  }
+
+  /* Section_five */
+  .section_five {
+    flex-direction: column;
+  }
+
+  .client_sec {
+    width: 100%;
+  }
+
+  /* Section_six */
+  .container {
+    padding: 100px 20px;
+  }
+
 }
