@@ -30,6 +30,7 @@ function emailValidate() {
 
 
 
+  // Smooth slider for navbar 
   const links = document.querySelectorAll(".header ul a");
 
   for (const link of links) {
