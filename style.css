@@ -427,6 +427,55 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* section-seven */
+.section_seven {
+  padding: 100px 50px;
+}
+
+.container_seven {
+  max-width: 1440px;
+  margin: auto;
+  text-align: center;
+}
+.pay_h1{
+  font-size: 54px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.pay_p {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.payment_area {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.purchase_btn {
+  margin-top: 50px;
+  background-color: #ff368b;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 5px;
+  color: #fff;
+  padding: 12px 50px;
+  cursor: pointer;
+}
+
+.purchase_btn:hover {
+  background-color: #ffebf4;
+  color: #333;
+  transition: 0.2s ease-in;
+}
+
 /* footer */
 .footer {
   background: #222222;
